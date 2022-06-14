@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_customization">
+    <sys_app_customization action="INSERT_OR_UPDATE">
+        <sys_created_by>CCMC-03</sys_created_by>
+        <sys_created_on>2022-06-14 19:59:23</sys_created_on>
+        <sys_id>173b3c121b84d91054cea9f6b04bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>CCMC-03</sys_updated_by>
+        <sys_updated_on>2022-06-14 19:59:23</sys_updated_on>
+        <vendor_app display_value="EMR Help">98cb4c52b7321010b40a5c2e9e11a951</vendor_app>
+        <vendor_app_version>1.1.3</vendor_app_version>
+        <version>1.0.0</version>
+        <war_version>glide-rome-06-23-2021__patch9-05-12-2022_05-18-2022_0922.zip</war_version>
+    </sys_app_customization>
+</record_update>

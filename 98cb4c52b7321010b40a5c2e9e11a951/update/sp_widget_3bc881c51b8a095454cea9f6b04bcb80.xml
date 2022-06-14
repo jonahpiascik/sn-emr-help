@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function loginCtrl($scope, $window) {
+
+    if (!$scope.data.is_logged_in)
+        $window.location = "/login_with_sso.do" + $window.location.search;
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) { 
+
+ }]]></link>
+        <name>EMR Help Login SSO Helper</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    data.is_logged_in = gs.getSession().isLoggedIn();
+    //data.default_idp = GlideProperties.get("glide.authenticate.sso.redirect.idp");
+
+
+    if (!data.is_logged_in) {
+        var gs_nav_to = gs.getSession().getProperty("nav_to");
+        gs.getSession().putProperty("nav_to", null);
+        if (!gs.getSession().getProperty("starting_page"))
+            gs.getSession().putProperty("starting_page", gs_nav_to);
+    }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>CCMC-03</sys_created_by>
+        <sys_created_on>2022-03-03 13:41:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3bc881c51b8a095454cea9f6b04bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EMR Help Login SSO Helper</sys_name>
+        <sys_package display_value="EMR Help" source="sn_ind_rmt_help">98cb4c52b7321010b40a5c2e9e11a951</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="EMR Help">98cb4c52b7321010b40a5c2e9e11a951</sys_scope>
+        <sys_update_name>sp_widget_3bc881c51b8a095454cea9f6b04bcb80</sys_update_name>
+        <sys_updated_by>CCMC-03</sys_updated_by>
+        <sys_updated_on>2022-03-03 13:41:24</sys_updated_on>
+        <template><![CDATA[<div ng-if="!data.is_logged_in">
+${Redirecting to SSO provider}
+</div>]]></template>
+    </sp_widget>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="EMR Help">98cb4c52b7321010b40a5c2e9e11a951</claim_owner_scope>
+        <claim_timestamp>18163cc9f620000001</claim_timestamp>
+        <metadata_update_name>sp_widget_3bc881c51b8a095454cea9f6b04bcb80</metadata_update_name>
+        <previous_claim_app_version>1.1.3</previous_claim_app_version>
+        <previous_claim_name>EMR Help</previous_claim_name>
+        <previous_claim_scope>98cb4c52b7321010b40a5c2e9e11a951</previous_claim_scope>
+        <sys_created_by>CCMC-03</sys_created_by>
+        <sys_created_on>2022-06-14 19:59:23</sys_created_on>
+        <sys_id>af3b3c121b84d91054cea9f6b04bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>CCMC-03</sys_updated_by>
+        <sys_updated_on>2022-06-14 19:59:23</sys_updated_on>
+    </sys_claim>
+</record_update>

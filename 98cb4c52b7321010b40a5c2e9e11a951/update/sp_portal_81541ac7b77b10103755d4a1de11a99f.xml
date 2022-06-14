@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables/>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="emr_assist_home_page">01162c25b700201072b55c2e9e11a9f6</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page display_value="emr_help_login">5b094dc51b8a095454cea9f6b04bcbde</login_page>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu display_value="Industry Remote Help Menu">872cd2cbb77b10103755d4a1de11a980</sp_rectangle_menu>
+        <sqanda_knowledge_base/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-16 11:35:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>81541ac7b77b10103755d4a1de11a99f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Industry Remote Help</sys_name>
+        <sys_package display_value="EMR Help" source="sn_ind_rmt_help">98cb4c52b7321010b40a5c2e9e11a951</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="EMR Help">98cb4c52b7321010b40a5c2e9e11a951</sys_scope>
+        <sys_update_name>sp_portal_81541ac7b77b10103755d4a1de11a99f</sys_update_name>
+        <sys_updated_by>CCMC-03</sys_updated_by>
+        <sys_updated_on>2022-03-03 13:43:47</sys_updated_on>
+        <theme display_value="Industry Remote Help">98b45ac7b77b10103755d4a1de11a9a4</theme>
+        <title>Industry Remote Help</title>
+        <ts_index_group/>
+        <url_suffix>emr_assist</url_suffix>
+        <user_registration_config/>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=81541ac7b77b10103755d4a1de11a99f"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="EMR Help">98cb4c52b7321010b40a5c2e9e11a951</claim_owner_scope>
+        <claim_timestamp>18163cc9f740000001</claim_timestamp>
+        <metadata_update_name>sp_portal_81541ac7b77b10103755d4a1de11a99f</metadata_update_name>
+        <previous_claim_app_version>1.1.3</previous_claim_app_version>
+        <previous_claim_name>EMR Help</previous_claim_name>
+        <previous_claim_scope>98cb4c52b7321010b40a5c2e9e11a951</previous_claim_scope>
+        <sys_created_by>CCMC-03</sys_created_by>
+        <sys_created_on>2022-06-14 19:59:23</sys_created_on>
+        <sys_id>ef3b3c121b84d91054cea9f6b04bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>CCMC-03</sys_updated_by>
+        <sys_updated_on>2022-06-14 19:59:23</sys_updated_on>
+    </sys_claim>
+</record_update>
